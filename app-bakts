@@ -1,0 +1,66 @@
+// const inputName = document.querySelector('#name') as HTMLInputElement;
+// const inputAge = document.querySelector('#age') as HTMLInputElement;
+// const inputForm = document.querySelector('form')!;
+// const inputGreeting = document.querySelector('.greeting') as HTMLDivElement;
+
+
+
+// interface PersonInterface {
+//     name: string,
+//     age: number
+// }
+
+// class Person implements PersonInterface{
+//     constructor(public name:string, public age: number){}
+//     greet(){
+//         return `Hi, my name is ${this.name} and I am ${this.age} :)`
+//     }
+// }
+
+//  // this is to get datat menouilly
+// // let Karim = new Person('Karim', 53);
+// // console.log(Karim.greet());
+
+// //this is how to get data from Form
+// inputForm?.addEventListener('submit', (e) => {
+//     e.preventDefault();
+    
+//     const person = new Person(inputName.value, inputAge.valueAsNumber);
+//     inputGreeting.innerText = person.greet();
+//     inputForm.reset();
+
+// })
+// function doSomeThing<T>(arg: T): T{
+//     //do something
+//     return arg
+// }
+
+// genirics
+// console.log(doSomeThing<string>('2021'));
+ 
+// interface book<T>{
+//     id: number,
+//     name: string,
+//     data: T
+// }
+// const abook: book< string | number > = {
+//     id: 1,
+//     name: 'Title',
+//     data: 12
+// }
+// const bBook: book<string[] | number[]> = {
+//     id: 2,
+//     name: 'Title',
+//     data: [2021, 2018]
+// }
+//enums
+
+enum ManufactureMake { TESSA, AUDI, MERCEDES, VOLVO, BMW };
+
+const myCare = {
+    year: 2021,
+    make: ManufactureMake.TESSA
+    
+}
+
+console.log(myCare.make);

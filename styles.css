@@ -1,0 +1,17 @@
+* {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(12, 12, 12);
+  color: rgb(237, 243, 245);
+  font-weight: bolder;
+  font-size: x-large;
+  border-width: 5px;
+  border-color: yellow;
+}
+.fm {
+  background-color: teal;
+}
+
+.greeting {
+  background-color: rgb(85, 58, 8);
+}
